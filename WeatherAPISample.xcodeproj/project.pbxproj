@@ -16,6 +16,7 @@
 		64544ED3296EC7D900DA189B /* WeatherAPISampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64544ED2296EC7D900DA189B /* WeatherAPISampleTests.swift */; };
 		64544EDD296EC7D900DA189B /* WeatherAPISampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64544EDC296EC7D900DA189B /* WeatherAPISampleUITests.swift */; };
 		64544EDF296EC7D900DA189B /* WeatherAPISampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64544EDE296EC7D900DA189B /* WeatherAPISampleUITestsLaunchTests.swift */; };
+		64544EEC296ECFCD00DA189B /* WeatherResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64544EEB296ECFCD00DA189B /* WeatherResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		64544ED8296EC7D900DA189B /* WeatherAPISampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherAPISampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		64544EDC296EC7D900DA189B /* WeatherAPISampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAPISampleUITests.swift; sourceTree = "<group>"; };
 		64544EDE296EC7D900DA189B /* WeatherAPISampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAPISampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		64544EEB296ECFCD00DA189B /* WeatherResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				64544EC4296EC7D900DA189B /* Assets.xcassets */,
 				64544EC6296EC7D900DA189B /* LaunchScreen.storyboard */,
 				64544EC9296EC7D900DA189B /* Info.plist */,
+				64544EEB296ECFCD00DA189B /* WeatherResponse.swift */,
 			);
 			path = WeatherAPISample;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 				64544EC0296EC7D700DA189B /* ViewController.swift in Sources */,
 				64544EBC296EC7D700DA189B /* AppDelegate.swift in Sources */,
 				64544EBE296EC7D700DA189B /* SceneDelegate.swift in Sources */,
+				64544EEC296ECFCD00DA189B /* WeatherResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
